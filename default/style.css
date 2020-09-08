@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.header {
+    background-color: darkcyan;
+}
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 330px;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    height: 200px;
+    background-color: aquamarine;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul a{
+    text-decoration: none;
+    color: inherit;
+}
+ul a:hover{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+span.text-muted {
+
+}
+.footer{
+    background-color: aqua;
+    color: white;
+    font-size: 22px;
+}
