@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style_profile.css">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <section>
+        <div class="name">
+        <img src="папич.jpg" alt="">
+        <p>Справжній мужик</p>
+            <div class="test">
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="Vitaliy">
+            </div>
+            <div class="test">
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" value="Tsal">
+            </div>
+        </div>
+
+        <button class="button">Change password</button>
+
+        <div class="password">
+            <form action="">
+                <label for="">You'r current password:</label>
+                <input type="password">
+                <label for="">New password:</label>
+                <input type="password">
+                <label for="">Repeat password:</label>
+                <input type="password">
+            </form>
+        </div>
+    </section>
+</main>
+
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(".password").show();
+        });
+    });
+</script>
+</body>
+</html>

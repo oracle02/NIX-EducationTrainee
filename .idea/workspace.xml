@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Blya" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6556d3ba-3fe8-43c1-b79a-1ca3ec6d4cbd" name="Default Changelist" comment="" />
+    <list default="true" id="6556d3ba-3fe8-43c1-b79a-1ca3ec6d4cbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/default/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default/style_posts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default/style_registr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/jQuery_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/default/log/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/default/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/post_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/profile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/registr.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/registr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/default/style_login.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +42,30 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hCHj9aDlDM8zCUo1myU9Xb6XFS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/var/www/default/trainee/css.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -26,6 +73,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,14 +89,32 @@
       <option name="presentableId" value="Default" />
       <updated>1599508286199</updated>
       <workItem from="1599508287370" duration="2793000" />
-      <workItem from="1599520991356" duration="8258000" />
+      <workItem from="1599520991356" duration="21253000" />
+      <workItem from="1599683066170" duration="1755000" />
+      <workItem from="1599717761222" duration="7374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="502" y="156" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599570516001">
+      <screen x="72" y="29" width="1294" height="739" />
+    </state>
+    <state x="502" y="156" width="424" height="491" key="FileChooserDialogImpl/72.29.1294.739@72.29.1294.739" timestamp="1599570516001" />
     <state x="514" y="324" width="399" height="156" key="NewPhpFileDialog" timestamp="1599553710655">
       <screen x="72" y="29" width="1294" height="739" />
     </state>
