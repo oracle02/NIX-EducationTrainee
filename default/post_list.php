@@ -1,26 +1,6 @@
-<?php
-?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style_posts.css">
-    <title>Document</title>
-</head>
-<body>
-<header>
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Registr</a></li>
-    </ul>
-</nav>
-</header>
+
+<?php require_once ('temp/header.php'); ?>
+<div class="content">
 <main>
     <section>
        <h1>Article header</h1>
@@ -45,9 +25,7 @@
         </article>
     </section>
 </main>
-<footer>
-    <p>&copy; Copyright by Anton 2020</p>
-
-</footer>
+</div>
+<?php require_once ('temp/footer.php'); ?>
 </body>
 </html>

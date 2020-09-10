@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+    color: #111111;
+    min-height:100%;
+    position:relative;
+    padding-bottom:200px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+    margin-left: 200px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: #444;
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 330px;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.block {
+    height: 57px;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.main input {
+    display: block;
+    margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #111;
+    color: white;
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height:100px;
+}
+.footer a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #444;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.button {
+    margin: 15px;
+}
+.password {
+
+    display: none;
+}
+.password input {
+    display: block;
+    margin-top: 10px;
+
+}
+.password {
+    margin: 30px;
+}

@@ -20,19 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6556d3ba-3fe8-43c1-b79a-1ca3ec6d4cbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/default/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default/style_posts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default/style_registr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/jQuery_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default/temp/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default/temp/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/default/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/default/log/access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/default/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/default/log/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/navigation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/post_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/registr.php" beforeDir="false" afterPath="$PROJECT_DIR$/default/registr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/default/style_login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/post_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/registr.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/registr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style_login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style_posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/default/style_posts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style_registr.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/default/temp" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -91,7 +92,8 @@
       <workItem from="1599508287370" duration="2793000" />
       <workItem from="1599520991356" duration="21253000" />
       <workItem from="1599683066170" duration="1755000" />
-      <workItem from="1599717761222" duration="7374000" />
+      <workItem from="1599717761222" duration="8639000" />
+      <workItem from="1599744200235" duration="4982000" />
     </task>
     <servers />
   </component>
@@ -115,10 +117,10 @@
       <screen x="72" y="29" width="1294" height="739" />
     </state>
     <state x="502" y="156" width="424" height="491" key="FileChooserDialogImpl/72.29.1294.739@72.29.1294.739" timestamp="1599570516001" />
-    <state x="514" y="324" width="399" height="156" key="NewPhpFileDialog" timestamp="1599553710655">
+    <state x="514" y="324" width="399" height="156" key="NewPhpFileDialog" timestamp="1599745213170">
       <screen x="72" y="29" width="1294" height="739" />
     </state>
-    <state x="514" y="324" width="399" height="156" key="NewPhpFileDialog/72.29.1294.739@72.29.1294.739" timestamp="1599553710655" />
+    <state x="514" y="324" width="399" height="156" key="NewPhpFileDialog/72.29.1294.739@72.29.1294.739" timestamp="1599745213170" />
     <state x="383" y="174" key="run.anything.popup" timestamp="1599508566840">
       <screen x="72" y="29" width="1294" height="739" />
     </state>

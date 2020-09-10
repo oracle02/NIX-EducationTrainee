@@ -1,20 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style_profile.css">
-    <title>Document</title>
-</head>
+<?php require_once ('temp/header.php'); ?>
 <body>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(".password").show();
+        });
+    });
+</script>
+
 <main>
     <section>
         <div class="name">
-        <img src="папич.jpg" alt="">
+        <img src="images/папич.jpg" alt="" class="profile">
         <p>Справжній мужик</p>
             <div class="test">
         <label for="name">Name:</label>
@@ -40,13 +37,7 @@
         </div>
     </section>
 </main>
+<?php require_once ('temp/footer.php'); ?>
 
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            $(".password").show();
-        });
-    });
-</script>
 </body>
 </html>

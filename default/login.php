@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_login.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
-<header class="header">
-    <h1>Perfect site</h1>
-    <p>Site description</p>
-</header>
+<?php require_once ('temp/header.php'); ?>
+<div class="
+">
 <div class="wrapper">
 
     <div class="col-md-6 login-form-2">
-        <h3>Login for Form 2</h3>
+        <h3>Login</h3>
         <form>
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Email *" value="" />
@@ -36,10 +25,7 @@
 
 
 </div>
-<footer class="footer">
-    <div class="container">
-        <p>&copy; Copyright by Anton 2020</p>
-    </div>
-</footer>
+</div>
+<?php require_once ('temp/footer.php'); ?>
 </body>
 </html>
