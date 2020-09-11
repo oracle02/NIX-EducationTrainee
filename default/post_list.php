@@ -1,29 +1,24 @@
 
 <?php require_once ('temp/header.php'); ?>
+<?php require_once ('posts_data.php'); ?>
 <div class="content">
 <main>
-    <section>
-       <h1>Article header</h1>
-        <img src="images/default.jpg" alt="images/alt.jpg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Harum eligendi neque aut, vel id natus, illo praesentium nobis reiciendis at sunt sed.
-            Dolorem fugiat dolor corrupti cupiditate earum assumenda quasi?</p>
-    </section>
-    <article>
-        <div class="article-img">
-            <img src="" alt="">
-        </div>
-        <h1>Article header</h1>
-        <img src="images/default.jpg" alt="images/alt.jpg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Harum eligendi neque aut, vel id natus, illo praesentium nobis reiciendis at sunt sed.
-            Dolorem fugiat dolor corrupti cupiditate earum assumenda quasi?</p>
-    </article>
-    <section class="others">
         <article>
-            <h1>Other posts</h1>
+       <h1><?= $data['post1']['header'] ?></h1>
+        <img src=<?= $data['post1']['img'] ?> alt="images/alt.jpg">
+        <p><?= $data['post1']['text'] ?></p>
         </article>
-    </section>
+    <article>
+        <h1><?= $data['post2']['header'] ?></h1>
+        <img src=<?= $data['post2']['img'] ?> alt="images/alt.jpg">
+        <p><?= $data['post2']['text'] ?></p>
+    </article>
+    <article>
+        <h1><?= $data['post3']['header'] ?></h1>
+        <img src=<?= $data['post3']['img'] ?> alt="images/alt.jpg">
+        <p><?= $data['post3']['text'] ?></p>
+    </article>
+
 </main>
 </div>
 <?php require_once ('temp/footer.php'); ?>
