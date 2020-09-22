@@ -1,4 +1,4 @@
-<?php require_once ('temp/header.php'); ?>
+<?php require_once('temp/header.php'); ?>
 <div class="
 ">
 <div class="wrapper">
@@ -26,6 +26,6 @@
 
 </div>
 </div>
-<?php require_once ('temp/footer.php'); ?>
+<?php require_once('temp/footer.php'); ?>
 </body>
 </html>

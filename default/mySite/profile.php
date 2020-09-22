@@ -1,4 +1,4 @@
-<?php require_once ('temp/header.php'); ?>
+<?php require_once('temp/header.php'); ?>
 <body>
 <script>
     $(document).ready(function(){
@@ -37,7 +37,7 @@
         </div>
     </section>
 </main>
-<?php require_once ('temp/footer.php'); ?>
+<?php require_once('temp/footer.php'); ?>
 
 </body>
 </html>
